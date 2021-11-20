@@ -1,7 +1,7 @@
 h1 {
   font-family: $font-header;
   font-weight: $font-black;
-  font-size: 26px;
+  font-size: 27px;
 
 }
 
@@ -9,4 +9,10 @@ h2 {
   font-family: $font-header;
   font-weight: $font-black;
   font-size: 13px;
+}
+
+h3 {
+  font-family: $font-header;
+  font-weight: $font-bold;
+  font-size: 75px;
 }
