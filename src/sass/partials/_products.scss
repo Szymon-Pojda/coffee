@@ -1,0 +1,77 @@
+[class^="product-"] {
+    position: relative;
+}
+
+.section-title {
+    color: $color-one;
+    font-size: 46px;
+    text-align: center;
+    font-family: $font-header;
+    font-weight: $font-semibold;
+    letter-spacing: 15px;
+    border-bottom: 3px solid $color-one;
+}
+
+.product-image {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.product-image img {
+    width: 65%;
+    height: 95%;
+    object-fit: cover;
+}
+
+.product-right .product-image {
+    right: 0;
+}
+.product-left .product-description {
+    padding: 36px 20px 36px 55%;
+    text-align: left;
+}
+.product-right .product-description {
+    padding: 36px 55% 46px 20px;
+    text-align: right;
+}
+
+.product-title {
+    color: $color-three;
+    font-family: $font-header;
+    font-size: 25px;
+    font-weight: $font-bold;
+    letter-spacing: 5px;
+    text-align: left;
+    margin: auto;
+}
+
+.product-line {
+    border-top: 2px solid $color-one;
+    margin-right: 95%;
+    width: 6%;
+    position: absolute;
+}
+
+.text-product {
+    color: $color-three;
+    font-family: $font-header;
+    font-weight: $font-regular;
+    font-size: 10px;
+    text-align: left;
+    padding: 0px 85px;
+}
+.product-character {
+    color: $color-three;
+    font-family: $font-header;
+    font-weight: $font-semibold;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-align: left;
+    margin: auto ;
+
+    span {
+        color: $color-one;
+    } 
+}

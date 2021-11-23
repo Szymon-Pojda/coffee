@@ -1,89 +1,91 @@
 header {
-    max-width: 1920px;
-    max-height: 100vh;
+  max-width: 1920px;
+  max-height: 100vh;
 
-    img {
-        width: 100%;
-        height: 100vh;
-        object-fit: cover;
-        filter: brightness(35%);
-        position: absolute;
-    }
+  img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    filter: brightness(35%);
+    position: absolute;
+  }
 }
 
 .header_wrapper {
-    position: relative;
-    display: flex;
-    color: $color-two;
-    max-width: 1920px;
-    max-height: 100vh;
-    padding-top: 10px;
+  position: relative;
+  display: flex;
+  color: $color-two;
+  max-width: 1920px;
+  max-height: 100vh;
+  padding-top: 10px;
 
-    .logo_subtitle {
-        word-spacing: 5px;
-        letter-spacing: 5px;
-        margin: auto;
-    }
+  .logo_subtitle {
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    margin: auto;
+  }
 
-    .logo_title {
-        word-spacing: 5px;
-        letter-spacing: 10px;
-        margin: auto;
-    }
+  .logo_title {
+    word-spacing: 5px;
+    letter-spacing: 10px;
+    margin: auto;
+  }
 }
 
 .main-nav {
-    position: relative;
-    margin: 25px 0 50px auto;
-    padding: 5px;
-    font-size: 15px;
+  position: relative;
+  margin: 25px 0 50px auto;
+  padding: 5px;
+  font-size: 15px;
 
-    a {
-        text-decoration: none;
-        padding-left: 15px;
-        color: $color-two;
-        font-family: $font-header;
-        font-weight: $font-semibold;
-    }
+  a {
+    text-decoration: none;
+    padding-left: 15px;
+    color: $color-two;
+    font-family: $font-header;
+    font-weight: $font-semibold;
+  }
 }
 
 .main-text {
-    margin-top: 10%;
+  margin-top: 10%;
 
-    .text-top {
-        text-align: left;
-        word-spacing: 25px;
-        letter-spacing: 15px;
-        color: $color-one;
-        margin: auto;
-    }
+  .text-top {
+    text-align: left;
+    word-spacing: 25px;
+    letter-spacing: 15px;
+    color: $color-one;
+    margin: auto;
+  }
 
-    .text-bottom {
-        word-spacing: 25px;
-        letter-spacing: 15px;
-        color: $color-one;
-        text-align: right;
-        //border-bottom: 5px solid $color-one;
-        margin: auto;
-    }
+  .text-bottom {
+    word-spacing: 25px;
+    letter-spacing: 15px;
+    color: $color-one;
+    text-align: center;
+    //border-bottom: 5px solid $color-one;
+    margin: auto;
+  }
          
 }
 
 .line {
-    border-top: 3px solid $color-one;
-    margin-left: 50%;
-    width: 20%;
+  border-top: 3px solid $color-one;
+  margin-left: 40%;
+  width: 20%;
+  text-align: center;
 
 }
 
 .discovery {
-    color: $color-two;
-    text-align: center;
-    letter-spacing: 5px;
-    margin-top: 18%;
+  color: $color-two;
+  text-align: center;
+  letter-spacing: 5px;
+  margin-top: 18%;
 
-    .text-discovery {
-        font-family: $font-header;
-        font-weight: $font-regular;
-    }
+  .text-discovery {
+    font-family: $font-header;
+    font-weight: $font-regular;
+  }
 }
+
