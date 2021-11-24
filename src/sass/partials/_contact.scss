@@ -33,16 +33,31 @@ textarea {
     height: 150px;
     width: 450px;
     margin-left: 30%;
-    
 }
 
-input.submit {
-    font-family: $font-header;
-    margin-top: 45px;
-    color: $color-two;
+.btn {
+    display: inline-block;
+   // font-family: $font-header;
+    margin: 45px 480px;
+    
     background-color: $color-one;
     border: none;
     height: 50px;
-    width: 450px;
+    width: 150px;
     letter-spacing: 3px;
+    background-position: 100% 0;
+    background-size: 300%;
+    transition: $transition;
+}
+.btn:hover {
+    background-position: 0 100%;
+    color: $color-two;
+}
+
+.submit {
+    text-align: center;
+    font-family: $font-header;
+    font-size: 15px;
+    letter-spacing: 3px;
+    color: $color-three;
 }
