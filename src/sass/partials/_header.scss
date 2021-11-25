@@ -1,6 +1,10 @@
 header {
-  max-width: 1920px;
-  max-height: 100vh;
+  background-image:linear-gradient(
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)), url(../images/background.png);
+  background-size: cover;
+  background-position: center;
+  //filter: brightness(85%);
 
   img {
     width: 100%;
@@ -66,7 +70,6 @@ header {
     //border-bottom: 5px solid $color-one;
     margin: auto;
   }
-         
 }
 
 .line {
@@ -74,7 +77,6 @@ header {
   margin-left: 40%;
   width: 20%;
   text-align: center;
-
 }
 
 .discovery {
@@ -88,4 +90,3 @@ header {
     font-weight: $font-regular;
   }
 }
-
