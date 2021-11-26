@@ -15,11 +15,11 @@ const app = {
         const clickElement = this;
 
         articleAbout.classList.remove(classNames.pages.active);
-        console.log(articleAbout);
+        console.log('!!!', articleAbout);
         sectionProduct.classList.remove(classNames.pages.active);
-        console.log(sectionProduct);
+        console.log('section', sectionProduct);
         formContact.classList.remove(classNames.pages.active);
-        console.log(formContact);
+        console.log('form', formContact);
 
         const href = clickElement.getAttribute('href');
 
@@ -47,6 +47,8 @@ const app = {
         return rawResponse.json();
       })
       .then(function (parsedResponse)  {
+        console.log('parsedResponse', parsedResponse);
+        
         this.data.products = parsedResponse;
         thisApp.initMenu();
       });
@@ -56,8 +58,8 @@ const app = {
 
   initMenu: function (){
     const thisApp = this;
-    for(let productData in thisApp.data.product){
-      new Product(thisApp.data.product[productData], this.data.product[productData]);
+    for(let productData in thisApp.data.products){
+      new Product(thisApp.data.products[productData], this.data.product[productData]);
     }
   },
 

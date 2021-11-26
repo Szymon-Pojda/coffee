@@ -1,5 +1,5 @@
-import { templates ,select } from './settings.js';
-import { utils } from '/utilis.js';
+import { templates , select } from './settings.js';
+import  utils  from './utils.js';
 
 class Product {
   constructor(id, data) {
@@ -7,7 +7,7 @@ class Product {
 
     thisProduct.id = id;
     console.log(thisProduct.id);
-    
+
     thisProduct.data = data;
 
     thisProduct.renderInMenu();
