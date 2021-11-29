@@ -18,7 +18,7 @@ class Product {
     /* generate HTML based on template */
     const generatedHTML = templates.menuProduct(thisProduct.data);
     /* create element using utils.createElementFromHTML */
-    thisProduct.element = utils.createDOMFormHTML(generatedHTML);
+    thisProduct.element = utils.createDOMFromHTML(generatedHTML);
     /* find menu container */
     const menuContainerHome = document.querySelector(select.containerOf.home);
     /* add element to menu */
