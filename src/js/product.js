@@ -22,7 +22,7 @@ class Product {
     /* find menu container */
     const menuContainerHome = document.querySelector(select.containerOf.home);
     /* add element to menu */
-    menuContainerHome.append(thisProduct.element);
+    menuContainerHome.appendChild(thisProduct.element);
   }
 }
 
