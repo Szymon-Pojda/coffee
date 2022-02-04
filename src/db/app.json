@@ -1,6 +1,7 @@
 {
     "products":[
       {
+        "id": "1",
         "no": "01.",
         "name": "LA LAGARTIJA",
         "roasting": "5/10",
@@ -12,6 +13,7 @@
         ]
       },
       {
+        "id": "2",
         "no": "02.",
         "name": "EL TIGRE",
         "roasting": "8/10",
@@ -22,6 +24,7 @@
         ]
       },
       {
+        "id": "3",
         "no": "03.",
         "name": "LA CUCARACHA",
         "roasting": "3/10",

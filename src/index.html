@@ -47,7 +47,7 @@
             <h4 class="section-title">PRODUCTS</h4>
             <!-- product -->
             <script id="template-product-widget" type="text/x-handlebars-template">
-            <article class="product-right">
+            <article class="product-{{ className }}">
                 <div class="product-image">
                     {{{ images }}}
                 </div>
@@ -59,30 +59,7 @@
                     <h5 class="product-character">INTENSITY:<span>{{{ intensity }}}</span></h5>
                 </div>
             </article>
-            <article class="product-left">
-                <div class="product-image">
-                    {{{ images }}}
-                </div>
-                <div class="product-description">
-                    <h5 class="product-title">{{{ no }}}  {{{ name }}}</h5>
-                    <p class="product-line"></p>
-                    <p class="text-product">{{{ description }}}</p>
-                    <h5 class="product-character">ROASTING:<span>{{{ roasting }}}</span></h5>
-                    <h5 class="product-character">INTENSITY:<span>{{{ intensity }}}</span></h5>
-                </div>
-            </article>
-            <article class="product-right">
-                <div class="product-image">
-                    {{{ images }}}
-                </div>
-                <div class="product-description">
-                    <h5 class="product-title">{{{ no }}} {{{ name }}}</h5>
-                    <p class="product-line"></p>
-                    <p class="text-product">{{{ description }}}</p>
-                    <h5 class="product-character">ROASTING:<span>{{{ roasting }}}</span></h5>
-                    <h5 class="product-character">INTENSITY:<span>{{{ intensity }}}</span></h5>
-                </div>
-            </article>
+            
         </script>
         </div>
     </section>
