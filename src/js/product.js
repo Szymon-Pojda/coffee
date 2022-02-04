@@ -20,9 +20,9 @@ class Product {
     /* create element using utils.createElementFromHTML */
     thisProduct.element = utils.createDOMFromHTML(generatedHTML);
     /* find menu container */
-    const menuContainerHome = document.querySelector(select.containerOf.home);
+    const menuContainerPages = document.querySelector(select.containerOf.pages);
     /* add element to menu */
-    menuContainerHome.appendChild(thisProduct.element);
+    menuContainerPages.appendChild(thisProduct.element);
   }
 }
 
