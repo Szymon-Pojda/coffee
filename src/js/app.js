@@ -68,9 +68,8 @@ const app = {
 
   init: function() {
     const thisApp = this;
-    thisApp.initPages();
     thisApp.initData();
-    //thisApp.initPages();
+    thisApp.initPages();
     thisApp.initMenu();
   },
 };

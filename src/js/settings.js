@@ -1,11 +1,11 @@
 export const select = {
   templateOf: {
-    //menuProduct: '#template-menu-product',
+    homePage: '#template-home-widget',
     //cartProduct: '#template-cart-product', // CODE ADDED
     productList: '#template-product-widget',
   },
   containerOf: {
-    //menu: '#product-list',
+    homes: '#product-list',
     cart: '#cart',
     pages: '#pages',
     //booking: '.booking-wrapper',
