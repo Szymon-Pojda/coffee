@@ -1,5 +1,5 @@
-import { templates , select } from './settings.js';
-import  utils  from './utils.js';
+import { templates , select } from '../settings.js';
+import  utils  from '../utils.js';
 
 class Product {
   constructor(id, data) {

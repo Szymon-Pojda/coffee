@@ -1,13 +1,14 @@
 export const select = {
   templateOf: {
-    //homePage: '#template-home-widget',
-    //cartProduct: '#template-cart-product', // CODE ADDED
     productList: '#template-product-widget',
+    contactPage: '#template-contact-widget', 
+   
   },
   containerOf: {
     products: '.products .container',
     cart: '#cart',
     pages: '#pages',
+    contact: '.contact .container',
     //booking: '.booking-wrapper',
   },
 
@@ -39,11 +40,13 @@ export const classNames = {
 
 export const settings = {
   db: {
-    url: '//localhost:3131',
+    url: '//' + window.location.hostname + (window.location.hostname=='localhost' ? ':3131' : ''),
     products: 'products',
+    contact: 'contact',
   }
 };
 
 export const templates = {
   menuProduct: Handlebars.compile(document.querySelector(select.templateOf.productList).innerHTML),
+  contactPage: Handlebars.compile(document.querySelector(select.templateOf.contactPage).innerHTML),
 };
